@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=IO_A4 Pin=P33-1
+Removed Pin From Net: NetName=stm32f411_buzzer Pin=P33-5
+Added Pin To Net: NetName=stm32f411_buzzer Pin=P33-1
+Added Pin To Net: NetName=IO_A4 Pin=P33-5
