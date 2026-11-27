@@ -116,8 +116,3 @@ Las conexiones previstas entre la FPGA, la DevEbox y la SRAM son **mutuamente ex
 
 La selección se realizará colocando jumpers entre tiras de pines adyacentes. Quedan pendientes las referencias de las tiras y las posiciones de los jumpers para cada conexión.
 
-G%h.$J&-7j84#J@35mAw4P
-
-Cuenta Cofidis usuario DNI
-Contraseña: 54830129
-Código de seguridad App: 936137
