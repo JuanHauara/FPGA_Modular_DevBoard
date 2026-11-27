@@ -8,7 +8,7 @@ También se contempla la **ISSI IS61WV5128EDBLL-10TLI** como alternativa: incorp
 
 Las tres referencias son **compatibles pin a pin** y pueden compartir el mismo footprint. Se montarán **dos chips de 512K × 8**, para un total de **1 MiB de RAM**, trabajando a **3,3 V**. En la ISSI con ECC, elegir el sufijo **`-10TLI`** para conservar el encapsulado y la velocidad indicados.
 
-| Característica | ISSI elegida para el producto final | ISSI alternativa con ECC | Infineon para la placa de desarrollo |
+| Característica | ISSI elegida para el producto final | ISSI alternativa con ECC | Infineon alternativa |
 |---|---|---|---|
 | Modelo | IS61WV5128BLL-10TLI | IS61WV5128EDBLL-10TLI | CY7C1049G30-10ZSXI |
 | Organización | 512K × 8 bits | 512K × 8 bits | 512K × 8 bits |
@@ -104,7 +104,7 @@ La numeración corresponde al esquema de la DevEbox; identificar el pin 1 antes 
 
 Referencias: [esquema de la DevEbox, J1](Datasheet/Placa_MCUDev_DevEBox_STM32H7XX_M/MCUDEV_DEVEBOX_H7XX_M/docs/STM32H7XX_M_schematics.pdf), [datasheet STM32H750, interfaz de depuración](https://www.st.com/resource/en/datasheet/stm32h750vb.pdf) y [manual ST-Link V2, UM1075, §4.2 y tabla 4](https://www.st.com/resource/en/user_manual/dm00026748-st-link-v2-in-circuit-debugger-programmer-for-stm8-and-stm32-stmicroelectronics.pdf).
 
-## Selección de conexiones mediante jumpers
+## Selección de conexión de la memoria SRAM mediante jumpers
 
 Las conexiones previstas entre la FPGA, la DevEbox y la SRAM son **mutuamente excluyentes**: solo se puede seleccionar una a la vez.
 
